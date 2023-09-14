@@ -10,9 +10,9 @@
 }
 
 .small-card-photo > img{
-    width: 150px;
+    width: 115px;
     /*min-width: 200px;*/
-    height: 200px;
+    height: 150px;
     margin-right: 20px;
 }
 
@@ -23,6 +23,12 @@
     
 }
 
-hr{
-    margin-top: 10px;
+h1:hover{
+    scale: 1.15;
+}
+
+.small-card-title > h1{
+    font-size: 20px;
+    margin-top: 15px;
+    
 }

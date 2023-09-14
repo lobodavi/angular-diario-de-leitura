@@ -1,4 +1,14 @@
-# AngularBlog
+# Diário de Leitura
+
+Projeto de um diário de leitura que mostra a leitura atual e as próximas leituras, mais informações sobre o livro são mostradas clicando no titulo do livro.
+
+Criado usando como base o projeto Angular blog disponível em https://github.com/felipeAguiarCode/angular-blog
+
+# Próximos passos
+
+Tornar o projeto responsivo e adicionar mais funcionalidades como barra de progresso da leitura atual e meta de leitura.
+
+# AngularDiarioDeLeitura
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 

@@ -9,7 +9,10 @@ import {dataFake} from '../../data/dataFake'
 export class ContentComponent implements OnInit {
   photoCover:string = ""
   contentTitle:string = ""
+  contentAuthor:string = ""
+  contentPages:string = ""
   contentDescription:string = ""
+  
   private id:string | null = "0"
 
   constructor(private route:ActivatedRoute) { 
@@ -25,10 +28,13 @@ export class ContentComponent implements OnInit {
   setValuesToComponent(id:string | null){
     const result = dataFake.filter(article => article.id == id)[0]
 
-    this.contentTitle = result.title
-    this.contentDescription = result.description
     this.photoCover = result.photo
-    this.contentDescription = result.Author
+    this.contentTitle = result.title
+    this.contentAuthor = result.author
+    this.contentPages = result.npages
+    this.contentDescription = result.description
+    
+    
   }
 
 }
