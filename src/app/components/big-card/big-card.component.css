@@ -1,0 +1,40 @@
+.container-big-card{
+    width: 400px;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin-left: 25px;
+    margin-right: 50px;
+    
+}
+
+.big-card-photo > img{
+    width: 400px;
+    /*min-width: 250px;*/
+    height: 530px;
+    justify-content: center;
+}
+
+.big-card-title > h1{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.big-card-description{
+    margin-top: 10px;
+    text-align: justify;
+    white-space:initial;
+}
+
+.big-card-description > p > a{
+    color: gray;
+   
+}
+
+.big-card-description > p > a{
+    white-space: pre-wrap;
+}
